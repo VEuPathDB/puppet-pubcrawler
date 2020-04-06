@@ -408,6 +408,83 @@ class pubcrawler::params {
       ],
     },
 
+    'VectorBase' => {
+      bgcolor     => '#6ea05f',
+      header_icon => '/a/images/VEuPathDB/Logos-color-text-web/vectorbase.png',
+      searches => [
+        {
+          database => 'pubmed',
+          alias    => 'New PubMed articles on Diptera',
+          term     => 'Diptera [ALL]',
+        },
+        {
+          database => 'pubmed',
+          alias    => 'New PubMed articles on Gastropoda',
+          term     => 'Gastropoda [ALL]',
+        },
+        {
+          database => 'pubmed',
+          alias    => 'New PubMed articles on Hemiptera',
+          term     => 'Hemiptera [ALL]',
+        },
+        {
+          database => 'pubmed',
+          alias    => 'New PubMed articles on Ixodida',
+          term     => 'Ixodida [ALL]',
+        },
+        {
+          database => 'pubmed',
+          alias    => 'New PubMed articles on Phthiraptera',
+          term     => 'Phthiraptera [ALL]',
+        },
+        {
+          database => 'pubmed',
+          alias    => 'New PubMed articles on Sarcoptiformes',
+          term     => 'Sarcoptiformes [ALL]',
+        },
+        {
+          database => 'pubmed',
+          alias    => 'New PubMed articles on Trombidiformes',
+          term     => 'Trombidiformes [ALL]',
+        },
+        {
+          database => 'genbank',
+          alias    => 'New Genbank sequences for Diptera',
+          term     => 'Diptera [ORGN]',
+        },
+        {
+          database => 'genbank',
+          alias    => 'New Genbank sequences for Gastropoda',
+          term     => 'Gastropoda [ORGN]',
+        },
+        {
+          database => 'genbank',
+          alias    => 'New Genbank sequences for Hemiptera',
+          term     => 'Hemiptera [ORGN]',
+        },
+        {
+          database => 'genbank',
+          alias    => 'New Genbank sequences for Ixodida',
+          term     => 'Ixodida [ORGN]',
+        },
+        {
+          database => 'genbank',
+          alias    => 'New Genbank sequences for Phthiraptera',
+          term     => 'Phthiraptera [ORGN]',
+        },
+        {
+          database => 'genbank',
+          alias    => 'New Genbank sequences for Sarcoptiformes',
+          term     => 'Sarcoptiformes [ORGN]',
+        },
+        {
+          database => 'genbank',
+          alias    => 'New Genbank sequences for Trombidiformes',
+          term     => 'Trombidiformes [ORGN]',
+        }
+      ],
+    },
+
   }
 
 }

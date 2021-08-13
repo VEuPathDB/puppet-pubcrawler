@@ -484,6 +484,118 @@ class pubcrawler::params {
         }
       ],
     },
+    'VEuPathDB' => {
+      bgcolor     => '#507494',
+      header_icon => '/a/images/VEuPathDB/title_s.png',
+      searches => [
+        {
+          database => 'pubmed',
+          alias    => 'New PubMed articles on Cryptosporidium',
+          term     => 'Cryptosporidium [ALL]',
+        },
+        {
+          database => 'pubmed',
+          alias    => 'New PubMed articles on Encephalitozoon or Enterocytozoon',
+          term     => 'Enterocytozoon [ALL] or Encephalitozoon [ALL]',
+        },
+        {
+          database => 'pubmed',
+          alias    => 'New PubMed articles on Entamoeba',
+          term     => 'Entamoeba [ALL]',
+        },
+        {
+          database => 'pubmed',
+          alias    => 'New PubMed articles on Giardia',
+          term     => 'Giardia [ALL]',
+        },
+        {
+          database => 'pubmed',
+          alias    => 'New PubMed articles on Microsporidia',
+          term     => 'Edhazardia [ALL]  OR Encephalitozoon [ALL]  OR Enterocytozoon [ALL]  OR Hamiltosporidium [ALL]  OR Nematocida [ALL]  OR Nosema [ALL]  OR Vavraia [ALL]',
+        },
+        {
+          database => 'pubmed',
+          alias    => 'New PubMed articles on Piroplasma genera',
+          term     => 'Anthemosoma [ALL] OR Babesia [ALL] OR Cristalloidophora [ALL] OR Dactylosoma [ALL] OR Echinozoon [ALL] OR Haemohormidium [ALL] OR Sauroplasma [ALL] OR Theileria [ALL]',
+        },
+        {
+          database => 'pubmed',
+          alias    => 'New PubMed articles on Plasmodium',
+          term     => 'Plasmodium [ALL]',
+        },
+        {
+          database => 'pubmed',
+          alias    => 'New PubMed articles on Toxoplasma or Eimeria or Neospora',
+          term     => 'Toxoplasma [ALL] or Eimeria [ALL] or Neospora [ALL]',
+        },
+        {
+          database => 'pubmed',
+          alias    => 'New PubMed articles on Trichomonas',
+          term     => 'Trichomonas [ALL]',
+        },
+        {
+          database => 'pubmed',
+          alias    => 'New PubMed articles on other Apicomplexan organisms',
+          term     => 'Apicomplexa OR Apicomplexan OR Eimeria OR Gregarina OR Neospora OR Sarcocystis OR Theileria NOT Cryptosporidium NOT Plasmodium NOT Toxoplasma [ALL]',
+        },
+        {
+          database => 'pubmed',
+          alias    => 'New PubMed articles on Leishmania or Trypanosoma or Crithidia',
+          term     => 'Trypanosoma [ALL] or  Leishmania [ALL] or Crithidia [ALL]',
+        },
+        {
+          database => 'genbank',
+          alias    => 'New Genbank sequences for Cryptosporidium',
+          term     => 'Cryptosporidium [ORGN]',
+        },
+        {
+          database => 'genbank',
+          alias    => 'New Genbank sequences for Entamoeba',
+          term     => 'Entamoeba [ALL]',
+        },
+        {
+          database => 'genbank',
+          alias    => 'New Genbank sequences for Giardia',
+          term     => 'Giardia [ORGN]',
+        },
+        {
+          database => 'genbank',
+          alias    => 'New Genbank sequences for Microsporidia',
+          term     => 'Edhazardia [ORGN]  OR Encephalitozoon [ORGN]  OR Enterocytozoon [ORGN]  OR Hamiltosporidium [ORGN]  OR Nematocida [ORGN]  OR Nosema [ORGN]  OR Vavraia [ORGN]',
+        },
+        {
+          database => 'genbank',
+          alias    => 'New Genbank sequences for Piroplasma genera',
+          term     => 'Anthemosoma OR Babesia OR Cristalloidophora OR Dactylosoma OR Echinozoon OR Haemohormidium OR Sauroplasma OR Theileria [ORGN]',
+        },
+        {
+          database => 'genbank',
+          alias    => 'New Genbank sequences for Plasmodium',
+          term     => 'Plasmodium [ORGN]',
+        },
+        {
+          database => 'genbank',
+          alias    => 'New Genbank sequences for Toxoplasma',
+          term     => 'Toxoplasma [ORGN] or Eimeria [ORGN] or Neospora [ORGN]',
+        },
+        {
+          database => 'genbank',
+          alias    => 'New Genbank sequences for Trichomonas',
+          term     => 'Trichomonas [ORGN]',
+        },
+        {
+          database => 'genbank',
+          alias    => 'New Genbank sequences for other Apicomplexan organisms',
+          term     => 'Apicomplexa NOT Toxoplasma NOT Plasmodium NOT Cryptosporidium [ORGN]',
+        },
+        {
+          database => 'genbank',
+          alias    => 'New Genbank sequences for Leishmania or Trypanosoma or Crithidia',
+          term     => 'Leishmania [ORGN] or Trypanosoma [ORGN] or Crithidia [ORGN]',
+        },
+      ],
+    },
+
 
   }
 

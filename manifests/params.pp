@@ -38,7 +38,7 @@ class pubcrawler::params {
   $site_specific_params = {
     'AmoebaDB' => {
       bgcolor     => '#C8C5A2',
-      header_icon => '/a/images/AmoebaDB/title_s.png',
+      header_icon => '/a/images/VEuPathDB/Logos-color-text-web/amoebaDB.png',
       searches => [
         {
           database => 'pubmed',
@@ -66,7 +66,7 @@ class pubcrawler::params {
 
     'CryptoDB' => {
       bgcolor     => '#ffcccc',
-      header_icon => '/a/images/CryptoDB/title_s.png',
+      header_icon => '/a/images/VEuPathDB/Logos-color-text-web/cryptoDB.png',
       searches => [
         {
           database => 'genbank',
@@ -88,7 +88,7 @@ class pubcrawler::params {
 
     'EuPathDB' => {
       bgcolor     => '#507494',
-      header_icon => '/a/images/EuPathDB/title_s.png',
+      header_icon => '/a/images/VEuPathDB/Logos-color-text-web/VEuPathDB.png',
       searches => [
         {
           database => 'pubmed',
@@ -200,7 +200,7 @@ class pubcrawler::params {
 
     'FungiDB' => {
       bgcolor     => '#cd919e',
-      header_icon => '/a/images/FungiDB/title_s.png',
+      header_icon => '/a/images/VEuPathDB/Logos-color-text-web/fungiDB.png',
       searches => [
         {
           database => 'pubmed',
@@ -217,7 +217,7 @@ class pubcrawler::params {
 
     'GiardiaDB' => {
       bgcolor     => '#993333',
-      header_icon => '/a/images/GiardiaDB/title_s.png',
+      header_icon => '/a/images/VEuPathDB/Logos-color-text-web/giardiaDB.png',
       searches => [
         {
           database => 'pubmed',
@@ -234,7 +234,7 @@ class pubcrawler::params {
 
     'HostDB' => {
       bgcolor     => '#e08265',
-      header_icon => '/a/images/HostDB/title_s.png',
+      header_icon => '/a/images/VEuPathDB/Logos-color-text-web/hostDB.png',
       searches => [
         {
           database => 'pubmed',
@@ -246,7 +246,7 @@ class pubcrawler::params {
 
     'MicrosporidiaDB' => {
       bgcolor     => '#C4BAD3',
-      header_icon => '/a/images/MicrosporidiaDB/title_s.png',
+      header_icon => '/a/images/VEuPathDB/Logos-color-text-web/microsporidiaDB.png',
       searches => [
         {
           database => 'pubmed',
@@ -263,7 +263,7 @@ class pubcrawler::params {
 
     'PiroplasmaDB' => {
       bgcolor     => '#e08265',
-      header_icon => '/a/images/PiroplasmaDB/title_s.png',
+      header_icon => '/a/images/VEuPathDB/Logos-color-text-web/piroplasmaDB.png',
       searches => [
         {
           database => 'pubmed',
@@ -280,7 +280,7 @@ class pubcrawler::params {
 
     'PlasmoDB' => {
       bgcolor     => '#bbaacc',
-      header_icon => '/a/images/PlasmoDB/title_s.png',
+      header_icon => '/a/images/VEuPathDB/Logos-color-text-web/plasmoDB.png',
       searches => [
         {
           database => 'pubmed',
@@ -314,7 +314,7 @@ class pubcrawler::params {
 
     'ToxoDB' => {
       bgcolor     => '#cd919e',
-      header_icon => '/a/images/ToxoDB/title_s.png',
+      header_icon => '/a/images/VEuPathDB/Logos-color-text-web/toxoDB.png',
       searches => [
         {
           database => 'pubmed',
@@ -346,7 +346,7 @@ class pubcrawler::params {
 
     'TrichDB' => {
       bgcolor     => '#993333',
-      header_icon => '/a/images/TrichDB/title_s.png',
+      header_icon => '/a/images/VEuPathDB/Logos-color-text-web/trichDB.png',
       searches => [
         {
           database => 'pubmed',
@@ -363,7 +363,7 @@ class pubcrawler::params {
 
     'TriTrypDB' => {
       bgcolor     => '#dfbba6',
-      header_icon => '/a/images/TriTrypDB/title_s.png',
+      header_icon => '/a/images/VEuPathDB/Logos-color-text-web/tritrypDB.png',
       searches => [
         {
           database => 'pubmed',
@@ -486,7 +486,7 @@ class pubcrawler::params {
     },
     'VEuPathDB' => {
       bgcolor     => '#507494',
-      header_icon => '/a/images/VEuPathDB/title_s.png',
+      header_icon => '/a/images/VEuPathDB/Logos-color-text-web/VEuPathDB.png',
       searches => [
         {
           database => 'pubmed',

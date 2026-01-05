@@ -32,6 +32,7 @@ class pubcrawler::params {
   $no_decap         = ''
   $spacer           = ''
   $searches         = undef
+  $work_dir         = undef
 
   # override some of the above defaults in hash form to make
   # configurations specific for a site.
